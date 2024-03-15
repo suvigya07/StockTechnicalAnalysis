@@ -16,4 +16,4 @@ This is a Flask-based web application that predicts the bullishness or bearishne
    ```bash
    git clone https://github.com/your_username/stock-prediction-web-app.git
 
-# Author - Suvigya
+Author - Suvigya
