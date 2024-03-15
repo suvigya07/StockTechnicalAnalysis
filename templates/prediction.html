@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Stock Prediction Result</h1>
+    <p>Symbol: {{ symbol }}</p>
+    <p>Prediction: {{ prediction }}</p>
+    <p>Bullishness Rating: {{ bullishness_rating }}/10</p>
+    <p>Bearishness Rating: {{ bearishness_rating }}/10</p>
+    <p>Suggestion: {{ suggestion }}</p>
+    <p>Moving Average (50-day): {{ sma_50 }}</p>
+    <p>Moving Average (200-day): {{ sma_200 }}</p>
+    <p>RSI: {{ rsi }}</p>
+    <p>MACD: {{ macd }}</p>
+    <p>Stochastic Oscillator: {{ stochastic }}</p>
+    <a href="/">Back to input form</a>
+</body>
+</html>
